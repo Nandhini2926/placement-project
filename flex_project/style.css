@@ -1,0 +1,94 @@
+*
+{margin:0;
+ padding: 0;
+ font-family: Arial, Helvetica, sans-serif;   
+}
+.animal{
+    display: flex;
+    justify-content: space-around;
+    background-color:darkgray;
+
+}
+.animal_image{
+    margin-top: 60px;
+    margin-left: 30px;
+    margin-bottom: 80px;
+    width: 100px;
+}
+.animal_details{
+    margin-top: 70px;
+}
+.animal_video{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.animal_details audio{
+   margin-top: 150px;
+}
+*
+{margin:0;
+ padding: 0;
+ font-family: Arial, Helvetica, sans-serif;   
+}
+.bird{
+    display: flex;
+    justify-content: space-around;
+    background-color:darkgrey;
+
+}
+.bird_image{
+    margin-top: 50px;
+    margin-left: 30px;
+    margin-bottom: 60px;
+}
+.bird_details{
+    margin-top: 70px;
+}
+.bird_video{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    height: 300px;
+   
+}
+.bird_details audio{
+   padding-top: 150px;
+   padding-bottom: 60px;
+   padding-left: 100px;
+}
+*
+{margin:0;
+ padding: 0;
+ font-family: Arial, Helvetica, sans-serif;   
+}
+.movie{
+    display: flex;
+    justify-content: space-around;
+    background-color:darkgrey;
+
+}
+.movie_image{
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-bottom: 60px;
+    padding-right: 180px;
+}
+.movie_details{
+    margin-top: 70px;
+    margin-right: 280px;
+    margin-left: 100px;
+}
+.movie_video{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    height: 300px;
+   
+}
+.movie_details audio{
+   padding-top: 150px;
+   padding-bottom: 60px;
+   padding-left: 10px;
+}
