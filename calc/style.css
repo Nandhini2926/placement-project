@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.screen input{
+    border-radius: 5px 5px 5px 5px;
+    margin-top: 20px;
+    margin-left: 25px;
+    font-size: 20px;
+    width:200px;
+    height: 30px;
+}
+.all{
+     width: 250px;
+     height: 360px;
+     background-color:rgb(118, 104, 104);
+     margin: auto;
+     border-radius: 15px 15px 15px 15px;
+     margin-top: 100px;
+}
+.buttons{
+  grid-template-columns: repeat(4,25px);
+  display:grid;
+  gap:35px;
+  margin-left: 20PX;
+  text-align: center;
+  margin-top:40px;
+}
