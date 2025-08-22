@@ -1,0 +1,156 @@
+*{
+    margin:0;
+    padding: 0;
+}
+.robot{
+    background-color:yellow;
+    width: 350px;
+    height: 400px;
+    margin: 0 auto;
+}
+
+.head{
+    margin:0 auto;
+    width: 140px;
+    height: 150px;
+    border-radius: 50% 50% 20% 20%;
+    background-color:black;
+    margin-top: 100px;
+}
+.eyes{
+    display: flex;
+    justify-content: space-around;
+}
+.left_eye{
+    
+    width: 15px;
+    height: 15px;
+    background-color:white;
+    border-radius: 50%;
+    margin-top: 50px;
+}
+.right_eye{
+    
+    width: 15px;
+    height: 15px;
+    background-color:white;
+    border-radius: 50%;
+
+    margin-top: 50px;
+
+}
+.middle{
+
+        display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    margin-top:5px;
+    width: 220px;
+    
+}
+.left_hand{
+    width: 20px;
+    height: 100px;
+    border-radius: 30px;
+    margin-top: 10px;
+    background-color:black;
+}
+.middle_area{
+    width: 140px;
+    height: 150px;
+    background-color:black;
+    border-radius: 35px;
+}
+.right_hand{
+    width: 20px;
+    height: 100px;
+    border-radius: 33px;
+    margin-top: 10px;
+    background-color:black;
+}
+.leg{
+    display: flex;
+    justify-content: space-around;
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+}
+.left_leg{
+     background-color:black;
+     width: 20px;
+     height: 80px;
+     border-radius: 10px 10px 10px 10px;
+}
+.right_leg{
+       background-color:black;
+     width: 20px;
+     height: 80px;
+     border-radius: 10px 10px 10px 10px;
+}
+.robot:hover .head{
+    background-color:gray;
+    transition: background color 2s ease-in-out;
+
+}
+.robot:hover .middle_area{
+    transition: background color 2s ease-in-out;
+
+    background-color: grey;
+}
+.robot:hover .left_leg,
+.robot:hover .right_leg{
+    background-color:grey;
+}
+.robot:hover .left_hand,
+.robot:hover .right_hand{
+    background-color:grey;
+}
+.robot:hover .right_eye,
+.robot:hover .left_eye{
+ background-color:rgba(96, 149, 230, 0.875);
+    width: 25px;
+    height: 25px;
+}
+@keyframes head-nod{
+  0%{ transform: rotate(0deg) translateY(0) }
+  20%{ transform: rotate(-6deg) translateY(-2px) }
+  40%{ transform: rotate(6deg) translateY(-1px) }
+  60%{ transform: rotate(-4deg) translateY(0) }
+  100%{ transform: rotate(0deg) translateY(0) }
+}
+
+@keyframes middle-body-dance {
+  0%{ transform: rotate(0deg) translateY(0) }
+  20%{ transform: rotate(-6deg) translateY(-2px) }
+  40%{ transform: rotate(6deg) translateY(-1px) }
+  60%{ transform: rotate(-4deg) translateY(0) }
+  100%{ transform: rotate(0deg) translateY(0) }
+}
+@keyframes arm-wave-left{
+  0%{ transform: rotate(8deg) }
+  25%{ transform: rotate(-30deg) translateY(2px) }
+  50%{ transform: rotate(12deg) }
+  75%{ transform: rotate(-20deg) translateY(1px) }
+  100%{ transform: rotate(8deg) }
+}
+@keyframes arm-wave-right{
+  0%{ transform: rotate(-8deg) }
+  25%{ transform: rotate(30deg) translateY(2px) }
+  50%{ transform: rotate(-12deg) }
+  75%{ transform: rotate(20deg) translateY(1px) }
+  100%{ transform: rotate(-8deg) }
+}
+@keyframes leg-kick-left{
+  0%{ transform: rotate(2deg) translateY(0) }
+  25%{ transform: rotate(-12deg) translateY(1px) }
+  50%{ transform: rotate(6deg) translateY(0) }
+  75%{ transform: rotate(-6deg) translateY(0) }
+  100%{ transform: rotate(2deg) translateY(0) }
+}
+@keyframes leg-kick-right{
+  0%{ transform: rotate(-2deg) translateY(0) }
+  25%{ transform: rotate(12deg) translateY(1px) }
+  50%{ transform: rotate(-6deg) translateY(0) }
+  75%{ transform: rotate(6deg) translateY(0) }
+  100%{ transform: rotate(-2deg) translateY(0) }
+}
