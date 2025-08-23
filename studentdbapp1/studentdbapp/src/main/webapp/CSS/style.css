@@ -1,0 +1,55 @@
+/* ===== Reset & Base ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #1e3c72, #2a5298);
+  color: #f4f4f9;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  text-align: center;
+}
+
+/* ===== Heading ===== */
+h2 {
+  font-size: 28px;
+  margin-bottom: 12px;
+  color: #ffffff;
+}
+
+/* ===== Paragraph ===== */
+p {
+  font-size: 18px;
+  margin-bottom: 24px;
+  color: #e0e0e0;
+}
+
+/* ===== Button ===== */
+#btnJs {
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  background: linear-gradient(90deg, #ff7e5f, #feb47b);
+  color: #fff;
+  cursor: pointer;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+#btnJs:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.4);
+}
+
+#btnJs:active {
+  transform: scale(0.97);
+}
